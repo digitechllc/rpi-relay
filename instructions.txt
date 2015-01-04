@@ -1,0 +1,22 @@
+So you want to make your Raspberry Pi automatically turn on & off an amplifier when you stream music to it via AirPlay?  Well, I have the answer for you!
+
+NOTE: Currently the board is only laid out for Raspberry Pi Models A & B.  I am working on designs for A+ and B+, and will update this once I've finished them.
+
+ALTERNATE SOLUTION:  Use a Powerswitch Tail (http://www.adafruit.com/products/268) from Adafruit. Caveat: you won't get the temperature sensor. 
+
+Hardware:
+	* Order the PCB's from OshPark
+	* Order the remaining parts from vendors as listed on Bill of Materials (BOM.txt).
+	When all has arrived:
+		* Solder the 220-ohm resistor to R2
+		* Solder the 4k7-ohm resistor to R3
+		* Solder the DS18B20
+		* Solder the header connector
+		* Solder the Solid State Relay
+		* Solder the terminal block
+	* Plug the module onto the Raspberry Pi.  There's really only one orientation that it will go on. See photo of installed board.
+
+Software:
+	* Acquire & Install Shairport (https://github.com/abrasive/shairport)
+	* Setup the 1-wire temperature sensor. Adafruit has an excellent guide: https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/overview
+	* Acquire my software from the code directory; follow the directions in that directory.
