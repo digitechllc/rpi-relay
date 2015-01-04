@@ -1,7 +1,6 @@
 rpi-relay
 =========
 
-Raspberry Pi (Models A&amp;B) Relay Control board &amp; Code
+This project was born from a desire to have my Raspberry Pi be used to stream music via AirPlay. I then realized the Raspberry Pi could also control a relay to turn on or off a connected amplifier. While I was designing the PCB, I decided to also add a DS18B20 temperature sensor as well.
 
-Order the PCB from OshPark: https://oshpark.com/shared_projects/adpycpZa
-Or download the DipTrace designs and modify as you see fit!
+A step-by-step guide can be found in instructions.txt.
