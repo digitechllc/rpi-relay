@@ -1,0 +1,12 @@
+This code is specifically for use with the PCB I created; it uses GPIO 23, which is hard-coded into the source code.
+If you need to change this to use the software with a different GPIO port, change line 11 before compiling.
+
+Download amp-on.c.  
+Download Makefile.
+Download init.sh
+
+type "make"
+
+Overwrite the init script with init.sh: mv init.sh /etc/init.d
+
+
